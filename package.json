@@ -1,0 +1,21 @@
+{
+  "name": "reasonml-boilerplate",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "jest",
+    "test:watch": "npm run test -- --watchAll"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-jest": "^0.3.2",
+    "bs-platform": "^2.1.0",
+    "jest": "^22.4.2"
+  }
+}
